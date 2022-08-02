@@ -1,6 +1,8 @@
 
 
-from func_tools import *
+import sys
+sys.path.append('..')
+from Tools.func_tools import *
 import pandas as pd
 
 

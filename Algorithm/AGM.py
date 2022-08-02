@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from func_tools import *
+import sys
+sys.path.append('..')
+from Tools.func_tools import *
 
 step_size = lambda n,lbd,delta:1/(1+n*lbd/delta)
 

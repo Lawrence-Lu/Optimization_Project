@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from func_tools import *
+import sys
+sys.path.append('..')
+from Tools.func_tools import *
 import pandas as pd
 
 def backtrack(X,func,gX,d,B,alpha=1,gamma=0.01,sigma=0.5):
